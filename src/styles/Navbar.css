@@ -1,0 +1,138 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #2C3E50;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(215, 0, 0, 0.1);
+  }
+  
+  .navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar-logo span {
+    color: #3498DB;
+  }
+  
+  .logo-icon {
+    font-size: 28px;
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s ease;
+    padding: 8px 12px;
+    border-radius: 4px;
+  }
+  
+  .navbar-links a:hover {
+    color: #3498DB;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .navbar-links a.active {
+    color: #3498DB;
+    font-weight: bold;
+  }
+  
+  .logout-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 15px;
+    background-color: #E74C3C;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-btn:hover {
+    background-color: #C0392B;
+  }
+  
+  .logout-icon {
+    font-size: 18px;
+  }
+  
+  .user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid #3498DB;
+  }
+  
+  .user-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1001;
+  }
+  
+  .hamburger span {
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    transition: all 0.3s ease;
+  }
+  
+  .hamburger.open span:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  
+  .hamburger.open span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .hamburger.open span:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-links {
+      position: fixed;
+      top: 70px;
+      left: 0;
+      right: 0;
+      background-color: #34495E;
+      flex-direction: column;
+      gap: 15px;
+      padding: 20px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }}  

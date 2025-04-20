@@ -1,0 +1,100 @@
+.home-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9ff;
+  color: #333;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Hero Section */
+.hero-section {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: linear-gradient(135deg, #4f46e5, #6366f1);
+  color: #fff;
+  border-radius: 20px;
+  margin-bottom: 3rem;
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.hero-message {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Dashboard Grid */
+.dashboard-section {
+  padding: 1rem 0;
+}
+
+.dashboard-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-icon {
+  font-size: 2.5rem;
+  color: #4f46e5;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Call-to-Action Section */
+.cta-section {
+  margin-top: 4rem;
+  text-align: center;
+  background-color: #eef2ff;
+  padding: 2rem;
+  border-radius: 16px;
+}
+
+.cta-section h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.cta-section p {
+  font-size: 1rem;
+  color: #666;
+}

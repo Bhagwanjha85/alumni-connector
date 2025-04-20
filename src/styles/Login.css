@@ -1,0 +1,98 @@
+/* General container styling */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+    padding: 20px;
+  }
+  
+  /* Login card styling */
+  .login-card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .login-card h2 {
+    font-size: 1.8rem;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  /* Error message styling */
+  .error-message {
+    color: #dc3545;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+  }
+  
+  /* Form styling */
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+  }
+  
+  .form-group input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+  }
+  
+  /* Button styling */
+  .login-btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-btn:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+  }
+  
+  .login-btn:hover:not(:disabled) {
+    background-color: #0056b3;
+  }
+  
+  /* Signup link styling */
+  .signup-link {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #6c757d;
+  }
+  
+  .signup-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .signup-link a:hover {
+    text-decoration: underline;
+  }
