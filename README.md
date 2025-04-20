@@ -1,70 +1,98 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🎓 Alumni Portal
 
-## Available Scripts
+A responsive web application designed to manage and connect alumni through secure authentication, profile management, directory browsing, and an interactive community feed.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🛠 Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Frontend:** React.js, HTML5, CSS3, JavaScript
+- **Styling:** Tailwind CSS, Bootstrap, Plain CSS (as applicable)
+- **State Management:** React Hooks, Context API
+- **Routing:** React Router
+- **Backend & Auth:** Express.js, Node.js, Firebase (or others if applicable)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🚀 Key Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🔐 **Authentication**
+- Secure login and signup forms with session management.
+- Password reset and validation system.
+- Real-time feedback with error and success messages.
 
-### `npm run build`
+### 👤 **Alumni Profile Management**
+- Editable profiles with personal and professional details.
+- Profile picture upload.
+- View-only mode for other users' profiles.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 📚 **Alumni Directory**
+- List or grid display of alumni profiles.
+- Lazy loading or pagination support.
+- Profile cards with batch, job title, and more.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🔍 **Search & Filter**
+- Search alumni by:
+  - Graduation year (Batch)
+  - Branch (Course)
+  - Job title
+  - Location
+- Filter chips/dropdowns for refined results.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🧵 **Community Feed / Forum**
+- News feed or bulletin board for alumni posts.
+- Post updates, questions, or discussions.
+- Like, comment, and reply functionalities.
+- Sort posts by recent, popular, or tags.
 
-### `npm run eject`
+### 🏷 **Sorting & Tagging**
+- Sort alumni by graduation year or profession.
+- Display tags on profiles (e.g., “Engineer”, “Designer”).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 📱 **Responsive Design**
+- Fully mobile-friendly layout using Flexbox/Grid.
+- Adaptive UI with hamburger navigation for small screens.
+- Consistent styling across all viewports.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🌐 Live Application
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+You can access the live version of the Alumni Portal here:  
+[**Live App**](https://alumni-connector.vercel.app/)
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📝 Steps to Run the Project
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Follow these simple steps to run the Alumni Website locally:
 
-### Code Splitting
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Bhagwanjha85/alumni-connector.git
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+2. **Navigate to the project directory:**
+   ```bash
+   cd Alumni_Website
+   ```
 
-### Analyzing the Bundle Size
+3. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+4. **Start the development server:**
+   ```bash
+   npm start
+   ```
 
-### Making a Progressive Web App
+5. **Open your browser and navigate to:**  
+   `http://localhost:3000`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 📄 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is open-source and available under the [MIT License](LICENSE).
